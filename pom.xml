@@ -44,7 +44,7 @@
     
   <groupId>eu.bcvsolutions.idm.connector.jdbc.beanshell</groupId>
   <artifactId>jdbc-beanshell</artifactId>
-  <version>1.0.0-SNAPSHOT</version>        
+  <version>1.0.0</version>
   <name>JDBC universal beanshell connector</name>
   <packaging>jar</packaging>
 
@@ -170,5 +170,13 @@
       </snapshots>
     </repository>
   </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Staging repo</name>
+      <url>https://nexus.bcvsolutions.eu/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 
 </project>
