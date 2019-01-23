@@ -447,16 +447,6 @@ public class JDBCConnector implements Connector, CreateOp, DeleteOp,
     	attributes.add(OperationalAttributeInfos.PASSWORD);
     	
     	// TODO: po upgrade na nove idm zde generuji cele schema, predelat na skript
-    	attributes.add(new AttributeInfoBuilder("e-mail", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("mobil", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("idmpwd", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("statni", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("mistnost", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("objekt", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("fax", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("mistni", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("oscis", String.class).setRequired(true).setCreateable(true).setReadable(true).setUpdateable(true).build());
-    	attributes.add(new AttributeInfoBuilder("idmlogin", String.class).setCreateable(true).setReadable(true).setUpdateable(true).build());
     	
     	//Prozatim pouze ACCOUNT.
     	//TODO Dodelat pro GROUP.
