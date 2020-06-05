@@ -44,7 +44,7 @@
     
   <groupId>eu.bcvsolutions.idm.connector.jdbc.beanshell</groupId>
   <artifactId>jdbc-beanshell</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>JDBC universal beanshell connector</name>
   <packaging>jar</packaging>
 
